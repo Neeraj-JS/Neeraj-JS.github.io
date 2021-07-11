@@ -551,6 +551,10 @@ footer span a:hover{
     .about .about-content .left img{
         height: 350px;
         width: 350px;
+        
+    }
+    .home{
+        max-width: 100%;
     }
 }
 
@@ -644,6 +648,9 @@ footer span a:hover{
     .navbar{
         max-width: 100%;
     }
+    .home{
+        max-width: 100%;
+    }
 }
 
 @media (max-width: 500px) {
@@ -677,6 +684,9 @@ footer span a:hover{
         line-height: 38px;
     }
     .navbar.sticky{
+        max-width: 100%;
+    }
+    .home{
         max-width: 100%;
     }
 }
