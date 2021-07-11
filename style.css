@@ -633,12 +633,16 @@ footer span a:hover{
     }
     .home .home-content .text-3{
         font-size: 15px;
+        width: 100%;
     }
     .home .home-content a{
         font-size: 20px;
     }
     .projects .serv-content .card{
         width: 100%;
+    }
+    .navbar{
+        max-width: 100%;
     }
 }
 
@@ -671,5 +675,8 @@ footer span a:hover{
         width: 35px;
         font-size: 23px;
         line-height: 38px;
+    }
+    .navbar.sticky{
+        max-width: 100%;
     }
 }
